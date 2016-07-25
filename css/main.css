@@ -1,0 +1,45 @@
+body { 
+	background-color:#78E2DD;
+}
+
+.container{
+	margin-top: 50px;
+}
+
+#tablero {
+	width:310px;
+	height:310px;
+	padding:0px;
+	border: 5px solid #143A38;
+	background-color:#398481;
+	margin: 20px auto;
+	cursor:pointer;
+}
+
+h1{
+	font-size: 50px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.celda {
+	border: 5px solid #143A38;
+	width:100px;
+	height:100px;
+	float:left;
+	margin:0px;
+	font-size: 90px;
+	text-align:center;
+}
+
+#tablero > div:hover {
+	background-color:#DDDDDD;
+}
+
+button {
+	background: #287B6C;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
